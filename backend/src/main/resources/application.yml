@@ -51,7 +51,7 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
     hibernate:
-      ddl-auto: validate # 운영은 validate 고정
+      ddl-auto: update # 운영은 validate 고정
     properties:
       hibernate:
         show_sql: false
